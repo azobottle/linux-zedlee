@@ -43,11 +43,11 @@ int main()
         exit(0);
     }
 }
-void loop2wait(int* mark)
+void loop2wait()
 {
     while(wait_mark!=0);
 }
-void stoploop(int* mark)
+void stoploop()
 {
     wait_mark=0;
 }
