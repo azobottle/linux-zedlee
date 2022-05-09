@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.22)
+project(ForLinuxClass C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(ForLinuxClass hw/shm.c hw/semphore.c hw/nosemphore.c hw/signal.c)
+add_executable(semphore hw/semphore.c)
+add_executable(nosemphore hw/nosemphore.c)
+add_executable(signal hw/signal.c)
+add_executable(Ep21 Ep2/Ep1.c)
+add_executable(pipe hw/pipe.c)
+add_executable(ex_fork1 hw/ex_fork1.c)
+add_executable(Ep22 Ep2/Ep2.c)
+add_executable(Ep23 Ep2/Ep3.c)

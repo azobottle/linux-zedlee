@@ -1,0 +1,11 @@
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/ForLinuxClass.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/semphore.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/nosemphore.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/signal.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep21.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/pipe.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/ex_fork1.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep22.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep23.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ForLinuxClass"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ForLinuxClass">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/ForLinuxClass" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 ForLinuxClass"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ForLinuxClass/fast">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/ForLinuxClass" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 ForLinuxClass/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="semphore">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/semphore" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 semphore"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="semphore/fast">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/semphore" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 semphore/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nosemphore">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/nosemphore" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 nosemphore"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nosemphore/fast">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/nosemphore" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 nosemphore/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/signal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="signal/fast">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/signal" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 signal/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ep21">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Ep21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ep21"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ep21/fast">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Ep21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ep21/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipe">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/pipe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 pipe"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pipe/fast">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/pipe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 pipe/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex_fork1">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/ex_fork1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex_fork1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex_fork1/fast">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/ex_fork1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex_fork1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ep22">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Ep22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ep22"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ep22/fast">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Ep22" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ep22/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ep23">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Ep23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ep23"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ep23/fast">
+				<Option output="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Ep23" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ep23/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zedlee/CLionProjects/ForLinuxClass/Ep2/Ep1.c">
+			<Option target="Ep21"/>
+		</Unit>
+		<Unit filename="/home/zedlee/CLionProjects/ForLinuxClass/Ep2/Ep2.c">
+			<Option target="Ep22"/>
+		</Unit>
+		<Unit filename="/home/zedlee/CLionProjects/ForLinuxClass/Ep2/Ep3.c">
+			<Option target="Ep23"/>
+		</Unit>
+		<Unit filename="/home/zedlee/CLionProjects/ForLinuxClass/hw/ex_fork1.c">
+			<Option target="ex_fork1"/>
+		</Unit>
+		<Unit filename="/home/zedlee/CLionProjects/ForLinuxClass/hw/nosemphore.c">
+			<Option target="ForLinuxClass"/>
+			<Option target="nosemphore"/>
+		</Unit>
+		<Unit filename="/home/zedlee/CLionProjects/ForLinuxClass/hw/pipe.c">
+			<Option target="pipe"/>
+		</Unit>
+		<Unit filename="/home/zedlee/CLionProjects/ForLinuxClass/hw/semphore.c">
+			<Option target="ForLinuxClass"/>
+			<Option target="semphore"/>
+		</Unit>
+		<Unit filename="/home/zedlee/CLionProjects/ForLinuxClass/hw/shm.c">
+			<Option target="ForLinuxClass"/>
+		</Unit>
+		<Unit filename="/home/zedlee/CLionProjects/ForLinuxClass/hw/signal.c">
+			<Option target="ForLinuxClass"/>
+			<Option target="signal"/>
+		</Unit>
+		<Unit filename="/home/zedlee/CLionProjects/ForLinuxClass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

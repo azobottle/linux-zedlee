@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/Ep23.dir/Ep2/Ep3.c.o -o Ep23 

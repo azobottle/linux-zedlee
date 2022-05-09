@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/Ep22.dir/Ep2/Ep2.c.o -o Ep22 

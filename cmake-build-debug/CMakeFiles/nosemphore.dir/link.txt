@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/nosemphore.dir/hw/nosemphore.c.o -o nosemphore 

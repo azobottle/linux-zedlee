@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ForLinuxClass",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Ep21::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ep21-Debug-77ceb67bec4a884362c6.json",
+					"name" : "Ep21",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ep22::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ep22-Debug-30a3196f1aab4fdbbd1c.json",
+					"name" : "Ep22",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ep23::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ep23-Debug-b60eead2c246a20a0de7.json",
+					"name" : "Ep23",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ForLinuxClass::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ForLinuxClass-Debug-5004d6bf7d93217e989b.json",
+					"name" : "ForLinuxClass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex_fork1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex_fork1-Debug-a5744310fa61a98f1f1d.json",
+					"name" : "ex_fork1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nosemphore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nosemphore-Debug-2acb7a93cda19f7db06e.json",
+					"name" : "nosemphore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pipe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pipe-Debug-3d2b361b698f57c5a23d.json",
+					"name" : "pipe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "semphore::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-semphore-Debug-93ac80901b0f1c27d02e.json",
+					"name" : "semphore",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "signal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-signal-Debug-2107c38c4b9b4e8c2c0f.json",
+					"name" : "signal",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug",
+		"source" : "/home/zedlee/CLionProjects/ForLinuxClass"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

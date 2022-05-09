@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/Ep21.dir/Ep2/Ep1.c.o -o Ep21 

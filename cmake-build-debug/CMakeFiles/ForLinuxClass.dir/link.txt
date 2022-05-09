@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/ForLinuxClass.dir/hw/shm.c.o CMakeFiles/ForLinuxClass.dir/hw/semphore.c.o CMakeFiles/ForLinuxClass.dir/hw/nosemphore.c.o CMakeFiles/ForLinuxClass.dir/hw/signal.c.o -o ForLinuxClass 

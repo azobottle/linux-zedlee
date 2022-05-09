@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/ex_fork1.dir/hw/ex_fork1.c.o -o ex_fork1 

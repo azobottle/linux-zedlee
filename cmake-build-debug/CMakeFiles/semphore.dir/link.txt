@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/semphore.dir/hw/semphore.c.o -o semphore 
