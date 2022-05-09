@@ -26,7 +26,7 @@ int main() {
             if (i == strlen(buff)) {
                 sum += atoi(buff);
             } else {
-                printf("%s", buff);
+                printf("%s\n", buff);
             }
         }
         printf("my work done");
@@ -38,7 +38,7 @@ int main() {
             pr = waitpid(pc, NULL, WNOHANG);
             if (pr == 0) {
                 scanf("%s", buff);
-                write(d[1], buff, strlen(buff));
+                write(d[1], buff, sizeof(buff));
                 sleep(1);
             }
         } while (pr == 0);

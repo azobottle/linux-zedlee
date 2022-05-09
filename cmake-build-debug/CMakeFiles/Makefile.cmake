@@ -51,4 +51,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ex_fork1.dir/DependInfo.cmake"
   "CMakeFiles/Ep22.dir/DependInfo.cmake"
   "CMakeFiles/Ep23.dir/DependInfo.cmake"
+  "CMakeFiles/Ep24.dir/DependInfo.cmake"
+  "CMakeFiles/Ep25.dir/DependInfo.cmake"
   )

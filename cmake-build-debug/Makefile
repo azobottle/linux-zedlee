@@ -233,6 +233,32 @@ Ep23/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep23.dir/build.make CMakeFiles/Ep23.dir/build
 .PHONY : Ep23/fast
 
+#=============================================================================
+# Target rules for targets named Ep24
+
+# Build rule for target.
+Ep24: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ep24
+.PHONY : Ep24
+
+# fast build rule for target.
+Ep24/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep24.dir/build.make CMakeFiles/Ep24.dir/build
+.PHONY : Ep24/fast
+
+#=============================================================================
+# Target rules for targets named Ep25
+
+# Build rule for target.
+Ep25: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ep25
+.PHONY : Ep25
+
+# fast build rule for target.
+Ep25/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep25.dir/build.make CMakeFiles/Ep25.dir/build
+.PHONY : Ep25/fast
+
 Ep2/Ep1.o: Ep2/Ep1.c.o
 .PHONY : Ep2/Ep1.o
 
@@ -304,6 +330,54 @@ Ep2/Ep3.s: Ep2/Ep3.c.s
 Ep2/Ep3.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep23.dir/build.make CMakeFiles/Ep23.dir/Ep2/Ep3.c.s
 .PHONY : Ep2/Ep3.c.s
+
+Ep2/Ep4.o: Ep2/Ep4.c.o
+.PHONY : Ep2/Ep4.o
+
+# target to build an object file
+Ep2/Ep4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep24.dir/build.make CMakeFiles/Ep24.dir/Ep2/Ep4.c.o
+.PHONY : Ep2/Ep4.c.o
+
+Ep2/Ep4.i: Ep2/Ep4.c.i
+.PHONY : Ep2/Ep4.i
+
+# target to preprocess a source file
+Ep2/Ep4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep24.dir/build.make CMakeFiles/Ep24.dir/Ep2/Ep4.c.i
+.PHONY : Ep2/Ep4.c.i
+
+Ep2/Ep4.s: Ep2/Ep4.c.s
+.PHONY : Ep2/Ep4.s
+
+# target to generate assembly for a file
+Ep2/Ep4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep24.dir/build.make CMakeFiles/Ep24.dir/Ep2/Ep4.c.s
+.PHONY : Ep2/Ep4.c.s
+
+Ep2/Ep5.o: Ep2/Ep5.c.o
+.PHONY : Ep2/Ep5.o
+
+# target to build an object file
+Ep2/Ep5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep25.dir/build.make CMakeFiles/Ep25.dir/Ep2/Ep5.c.o
+.PHONY : Ep2/Ep5.c.o
+
+Ep2/Ep5.i: Ep2/Ep5.c.i
+.PHONY : Ep2/Ep5.i
+
+# target to preprocess a source file
+Ep2/Ep5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep25.dir/build.make CMakeFiles/Ep25.dir/Ep2/Ep5.c.i
+.PHONY : Ep2/Ep5.c.i
+
+Ep2/Ep5.s: Ep2/Ep5.c.s
+.PHONY : Ep2/Ep5.s
+
+# target to generate assembly for a file
+Ep2/Ep5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep25.dir/build.make CMakeFiles/Ep25.dir/Ep2/Ep5.c.s
+.PHONY : Ep2/Ep5.c.s
 
 hw/ex_fork1.o: hw/ex_fork1.c.o
 .PHONY : hw/ex_fork1.o
@@ -469,6 +543,8 @@ help:
 	@echo "... Ep21"
 	@echo "... Ep22"
 	@echo "... Ep23"
+	@echo "... Ep24"
+	@echo "... Ep25"
 	@echo "... ForLinuxClass"
 	@echo "... ex_fork1"
 	@echo "... nosemphore"
@@ -484,6 +560,12 @@ help:
 	@echo "... Ep2/Ep3.o"
 	@echo "... Ep2/Ep3.i"
 	@echo "... Ep2/Ep3.s"
+	@echo "... Ep2/Ep4.o"
+	@echo "... Ep2/Ep4.i"
+	@echo "... Ep2/Ep4.s"
+	@echo "... Ep2/Ep5.o"
+	@echo "... Ep2/Ep5.i"
+	@echo "... Ep2/Ep5.s"
 	@echo "... hw/ex_fork1.o"
 	@echo "... hw/ex_fork1.i"
 	@echo "... hw/ex_fork1.s"

@@ -72,6 +72,8 @@ all: CMakeFiles/pipe.dir/all
 all: CMakeFiles/ex_fork1.dir/all
 all: CMakeFiles/Ep22.dir/all
 all: CMakeFiles/Ep23.dir/all
+all: CMakeFiles/Ep24.dir/all
+all: CMakeFiles/Ep25.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -88,6 +90,8 @@ clean: CMakeFiles/pipe.dir/clean
 clean: CMakeFiles/ex_fork1.dir/clean
 clean: CMakeFiles/Ep22.dir/clean
 clean: CMakeFiles/Ep23.dir/clean
+clean: CMakeFiles/Ep24.dir/clean
+clean: CMakeFiles/Ep25.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -97,7 +101,7 @@ clean: CMakeFiles/Ep23.dir/clean
 CMakeFiles/ForLinuxClass.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForLinuxClass.dir/build.make CMakeFiles/ForLinuxClass.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ForLinuxClass.dir/build.make CMakeFiles/ForLinuxClass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=7,8,9,10,11 "Built target ForLinuxClass"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=11,12,13,14,15 "Built target ForLinuxClass"
 .PHONY : CMakeFiles/ForLinuxClass.dir/all
 
 # Build rule for subdir invocation for target.
@@ -123,7 +127,7 @@ CMakeFiles/ForLinuxClass.dir/clean:
 CMakeFiles/semphore.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/semphore.dir/build.make CMakeFiles/semphore.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/semphore.dir/build.make CMakeFiles/semphore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target semphore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target semphore"
 .PHONY : CMakeFiles/semphore.dir/all
 
 # Build rule for subdir invocation for target.
@@ -149,7 +153,7 @@ CMakeFiles/semphore.dir/clean:
 CMakeFiles/nosemphore.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nosemphore.dir/build.make CMakeFiles/nosemphore.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nosemphore.dir/build.make CMakeFiles/nosemphore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target nosemphore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target nosemphore"
 .PHONY : CMakeFiles/nosemphore.dir/all
 
 # Build rule for subdir invocation for target.
@@ -175,7 +179,7 @@ CMakeFiles/nosemphore.dir/clean:
 CMakeFiles/signal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target signal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target signal"
 .PHONY : CMakeFiles/signal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -227,7 +231,7 @@ CMakeFiles/Ep21.dir/clean:
 CMakeFiles/pipe.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pipe.dir/build.make CMakeFiles/pipe.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pipe.dir/build.make CMakeFiles/pipe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target pipe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=20,21 "Built target pipe"
 .PHONY : CMakeFiles/pipe.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +257,7 @@ CMakeFiles/pipe.dir/clean:
 CMakeFiles/ex_fork1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex_fork1.dir/build.make CMakeFiles/ex_fork1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ex_fork1.dir/build.make CMakeFiles/ex_fork1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target ex_fork1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target ex_fork1"
 .PHONY : CMakeFiles/ex_fork1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -323,6 +327,58 @@ Ep23: CMakeFiles/Ep23.dir/rule
 CMakeFiles/Ep23.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep23.dir/build.make CMakeFiles/Ep23.dir/clean
 .PHONY : CMakeFiles/Ep23.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ep24.dir
+
+# All Build rule for target.
+CMakeFiles/Ep24.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep24.dir/build.make CMakeFiles/Ep24.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep24.dir/build.make CMakeFiles/Ep24.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target Ep24"
+.PHONY : CMakeFiles/Ep24.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ep24.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Ep24.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Ep24.dir/rule
+
+# Convenience name for target.
+Ep24: CMakeFiles/Ep24.dir/rule
+.PHONY : Ep24
+
+# clean rule for target.
+CMakeFiles/Ep24.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep24.dir/build.make CMakeFiles/Ep24.dir/clean
+.PHONY : CMakeFiles/Ep24.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Ep25.dir
+
+# All Build rule for target.
+CMakeFiles/Ep25.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep25.dir/build.make CMakeFiles/Ep25.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep25.dir/build.make CMakeFiles/Ep25.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target Ep25"
+.PHONY : CMakeFiles/Ep25.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Ep25.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Ep25.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Ep25.dir/rule
+
+# Convenience name for target.
+Ep25: CMakeFiles/Ep25.dir/rule
+.PHONY : Ep25
+
+# clean rule for target.
+CMakeFiles/Ep25.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep25.dir/build.make CMakeFiles/Ep25.dir/clean
+.PHONY : CMakeFiles/Ep25.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

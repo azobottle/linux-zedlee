@@ -7,5 +7,7 @@
 /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/ex_fork1.dir
 /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep22.dir
 /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep23.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep24.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep25.dir
 /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/rebuild_cache.dir
