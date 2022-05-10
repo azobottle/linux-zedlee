@@ -9,8 +9,6 @@ int main() {
     int d1[2];
     int d2[2];
     char buff[200];
-    //printf("please input a string:");
-    //scanf("%s", buff);
     pipe(d1);
     pipe(d2);
     if (fork() == 0) {
@@ -33,11 +31,9 @@ int main() {
             close(d2[0]);
             scanf("%s", buff);
             if (strlen(buff) % 2 == 0) {
-                //printf("%s\n%d\n", buff, (int) strlen(buff));
-                write(d1[1], buff, strlen(buff));
+                write(d1[1], buff, sizeof(buff));
             } else {
-                //printf("%s\n%d\n", buff, (int) strlen(buff));
-                write(d2[1], buff, strlen(buff));
+                write(d2[1], buff, sizeof(buff));
             }
         }
     }
