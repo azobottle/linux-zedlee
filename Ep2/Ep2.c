@@ -16,7 +16,7 @@ int main() {
         close(d2[0]);
         close(d2[1]);
         while (read(d1[0], buff, sizeof(buff)) == 0);
-        printf("P2 received %s form P1\n", buff);
+        printf("P2 received %s form P1(even)\n", buff);
         close(d1[0]);
     } else {
         if (fork() == 0) {
@@ -24,7 +24,7 @@ int main() {
             close(d1[1]);
             close(d2[1]);
             while (read(d2[0], buff, sizeof(buff)) == 0);
-            printf("P3 received %s form P1\n", buff);
+            printf("P3 received %s form P1(odd)\n", buff);
             close(d2[0]);
         } else {
             close(d1[0]);

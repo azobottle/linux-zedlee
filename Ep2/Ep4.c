@@ -2,7 +2,7 @@
 // Created by zedlee on 22-5-9.
 //
 #include <pthread.h>
-#include <stdio.h>
+#include <stdio.h>S
 #include <unistd.h>
 void fuc1() {
     int i=1;

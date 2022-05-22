@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/189/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/190/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/189/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/190/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/189/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/190/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/189/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/190/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -259,6 +259,32 @@ Ep25/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep25.dir/build.make CMakeFiles/Ep25.dir/build
 .PHONY : Ep25/fast
 
+#=============================================================================
+# Target rules for targets named Ep3
+
+# Build rule for target.
+Ep3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ep3
+.PHONY : Ep3
+
+# fast build rule for target.
+Ep3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep3.dir/build.make CMakeFiles/Ep3.dir/build
+.PHONY : Ep3/fast
+
+#=============================================================================
+# Target rules for targets named Test
+
+# Build rule for target.
+Test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Test
+.PHONY : Test
+
+# fast build rule for target.
+Test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
+.PHONY : Test/fast
+
 Ep2/Ep1.o: Ep2/Ep1.c.o
 .PHONY : Ep2/Ep1.o
 
@@ -378,6 +404,30 @@ Ep2/Ep5.s: Ep2/Ep5.c.s
 Ep2/Ep5.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep25.dir/build.make CMakeFiles/Ep25.dir/Ep2/Ep5.c.s
 .PHONY : Ep2/Ep5.c.s
+
+Ep3/Ep3.o: Ep3/Ep3.c.o
+.PHONY : Ep3/Ep3.o
+
+# target to build an object file
+Ep3/Ep3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep3.dir/build.make CMakeFiles/Ep3.dir/Ep3/Ep3.c.o
+.PHONY : Ep3/Ep3.c.o
+
+Ep3/Ep3.i: Ep3/Ep3.c.i
+.PHONY : Ep3/Ep3.i
+
+# target to preprocess a source file
+Ep3/Ep3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep3.dir/build.make CMakeFiles/Ep3.dir/Ep3/Ep3.c.i
+.PHONY : Ep3/Ep3.c.i
+
+Ep3/Ep3.s: Ep3/Ep3.c.s
+.PHONY : Ep3/Ep3.s
+
+# target to generate assembly for a file
+Ep3/Ep3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ep3.dir/build.make CMakeFiles/Ep3.dir/Ep3/Ep3.c.s
+.PHONY : Ep3/Ep3.c.s
 
 hw/ex_fork1.o: hw/ex_fork1.c.o
 .PHONY : hw/ex_fork1.o
@@ -532,6 +582,30 @@ hw/signal.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/signal.dir/build.make CMakeFiles/signal.dir/hw/signal.c.s
 .PHONY : hw/signal.c.s
 
+test.o: test.c.o
+.PHONY : test.o
+
+# target to build an object file
+test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.c.o
+.PHONY : test.c.o
+
+test.i: test.c.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -545,7 +619,9 @@ help:
 	@echo "... Ep23"
 	@echo "... Ep24"
 	@echo "... Ep25"
+	@echo "... Ep3"
 	@echo "... ForLinuxClass"
+	@echo "... Test"
 	@echo "... ex_fork1"
 	@echo "... nosemphore"
 	@echo "... pipe"
@@ -566,6 +642,9 @@ help:
 	@echo "... Ep2/Ep5.o"
 	@echo "... Ep2/Ep5.i"
 	@echo "... Ep2/Ep5.s"
+	@echo "... Ep3/Ep3.o"
+	@echo "... Ep3/Ep3.i"
+	@echo "... Ep3/Ep3.s"
 	@echo "... hw/ex_fork1.o"
 	@echo "... hw/ex_fork1.i"
 	@echo "... hw/ex_fork1.s"
@@ -584,6 +663,9 @@ help:
 	@echo "... hw/signal.o"
 	@echo "... hw/signal.i"
 	@echo "... hw/signal.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

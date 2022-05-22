@@ -9,5 +9,7 @@
 /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep23.dir
 /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep24.dir
 /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep25.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Ep3.dir
+/home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/Test.dir
 /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/zedlee/CLionProjects/ForLinuxClass/cmake-build-debug/CMakeFiles/rebuild_cache.dir
